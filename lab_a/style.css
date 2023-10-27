@@ -1,0 +1,59 @@
+
+#branco{
+    background-color:white;
+    color:black;
+    border: 20px;
+    margin-left: 80px;
+    }
+
+#texto{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#cinza{
+    background-color: rgb(255, 179, 255);
+    padding: 25px;
+    height: 20px;
+    margin-left: 0px;
+    }
+
+h3{
+    color:rgb(255, 112, 255);
+}
+
+form{
+    border: 1px solid rgb(255, 179, 255);
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+input{
+    width: 250px; height: 25px;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+}
+
+select{
+    width: 250px; height: 25px;
+}
+
+a:link{
+    color:crimson;
+}
+a:visited{
+    color:black;
+}
+
+label{
+    margin-right: 15px;
+}
+input{
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

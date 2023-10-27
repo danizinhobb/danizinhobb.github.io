@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(230,230,250);
+}
+#branco{
+    background-color:rgb(230,230,250);
+    color:black;
+    border: 20px;
+    margin-left: 80px;
+    }
+
+#cinza{
+    background-color: rgb(221,160,221);
+    padding: 25px;
+    height: 20px;
+    margin-left: 0px;
+}
+
+#texto{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+input{
+    width: 150px; height: 25px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(216,191,216);
+    border: 2px solid rgb(123,104,238);
+}
+
+textarea{
+    width: 400px; height: 150px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(216,191,216);
+    border: 2px solid rgb(123,104,238);
+}
+
+h2{
+    color:rgb(255,105,180);
+}
+
+h3{
+    color:rgb(255,105,180);
+}
+
+form{
+    border: 1px solid rgb(221,160,221);
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}

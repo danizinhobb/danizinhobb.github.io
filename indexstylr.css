@@ -1,0 +1,47 @@
+body{
+    background-image: url(tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+button{
+    background-color:#9054a9bb;
+    border: none;
+    border-radius: 15px;
+    color: #3b1457;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a:link{
+    color: #3b1457;
+}
+
+a:visited{
+    color: #aca277;
+}
+
+a:hover{
+    color: #d499bb;
+}

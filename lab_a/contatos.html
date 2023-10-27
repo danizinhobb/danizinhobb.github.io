@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+    <html>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./exercicioFWeb.html">
+        <title>Fundamentos da Web</title>
+
+        <body>
+            <div id = "branco">
+                <h1>Fundamentos da Web </h1>
+                <h3><i>Exercício</i></h3>
+            </div>
+    
+            <div id = "cinza">
+                <a target="_blank" href="./exercicioFWeb.html">Retornar</ahref></a>
+            </div>
+
+            <div id = "texto">
+                <h1>Contatos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quam possimus distinctio unde voluptatem voluptas,
+                repellendus ea, aliquid voluptatibus fuga nesciunt
+                quia esse consectetur maxime odio deleniti quis hic
+                blanditiis accusamus?</p>
+
+                <p>Entre em contato conosco!</p>
+            </div>
+
+            <form action="http://httpbin.org/post" method="post">
+            <label for="login">Login</label>
+                <input type="text" id="login" name="login" required>
+            <br>
+            <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" required>
+            <br>
+            <label for="data da ocorrência">Data da ocorrência</label>
+                <input type="date" id="data da ocorrência" name="data da ocorrência" required>
+            <br>
+            <label for="foto da ocorrência">Foto da ocorrência</label>
+                <input type="file" id="foto da ocorrência" name="foto da ocorrência" required>
+            <br>
+            <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            <br>
+            <label for="email">E-mail</label>
+                <input type="email" id="email" name="login" required>
+            <br>
+            Mensagem <textarea name="Mensagem"></textarea>
+            <br>
+            <input type="submit" value="Adicionar">
+            <input type="reset" value="limpar">
+            </form>
+        </body>
+    </html>
