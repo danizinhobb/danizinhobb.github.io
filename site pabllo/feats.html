@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pabllostyle.css">
+        <title>Site Pabllo Vittar</title>
+    </head>
+
+    <body>
+        <header>
+            <h1> Blog da <br> Pabllo </h1>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="disc.html">Discografia</a></li>
+                <li><a href="#"><span>Feats</span></a></li>
+                <li><a href="memes.html">Memes</a></li>
+            </ul>
+        </nav>
+
+        <div class="instrucao">
+            <h2>
+                Aqui você pode escutar algumas das música onde <br>
+                a queen fez uma participação! <br>
+                Clique na capa das músicas e abra escute dentro do site <br>
+                mesmo esses hits de sucesso.
+            </h2>
+        </div>    
+
+        <section>
+            <article class="jogabunda">
+                <img src="fotos/jogaBunda.jpeg" onclick="mostrarMusicaPopupFeat('Aretuza Love', 'Joga Bunda (ft. Gloria Groove e Pabllo Vittar)', 'musicas/feats/Aretuza Lovi - Joga Bunda.mp3')">
+
+                <h3>
+                Aretuza Love <br>
+                Joga Bunda <br>
+                ft. Gloria Groove <br>
+                e Pabllo Vittar
+                </h3>
+            </article>
+
+            <article class="tomecurtindo">
+                <img src="fotos/tomeCurtindo.jpg" onclick="mostrarMusicaPopupFeat('Lia Clark', 'TOME CUrtindo (ft. Pabllo Vittar)', 'musicas/feats/Lia Clark - TOME CUrtindo (Ft. Pabllo Vittar).mp3')">
+                
+                <h3>
+                Lia Clark <br>
+                TOME CUrtindo <br>
+                ft. Pabllo Vittar
+                </h3>
+            </article>
+
+            <article class="modoturbo">
+                <img src="fotos/modoTurbo.png" onclick="mostrarMusicaPopupFeat('Luísa Sonza', 'Modo Turbo (ft. Anitta e Pabllo Vittar)', 'musicas/feats/Luísa Sonza - MODO TURBO (Ft. Pabllo Vittar, Anitta).mp3')">
+                
+                <h3>
+                Luísa Sonza <br>
+                Modo Turbo <br>
+                ft. Anitta  <br>
+                e Pabllo Vittar
+                </h3>
+            </article>
+        </section>
+            
+        <section>
+            <article class="suacara">
+                <img src="fotos/suaCara.jpg" onclick="mostrarMusicaPopupFeat('Major Lazer', 'Sua Cara (ft. Anitta e Pabllo Vittar)', 'musicas/feats/Major Lazer - Sua Cara (ft. Anitta & Pabllo Vittar).mp3')">
+
+                <h3>
+                Major Lazer <br>
+                Sua Cara <br>
+                ft. Anitta <br>
+                e Pabllo Vittar
+                </h3>
+            </article>
+                
+            <article class="paraiso">
+                <img src="fotos/paraiso.jpg" onclick="mostrarMusicaPopupFeat('Lucas Lucco', 'Paraíso (ft. Pabllo Vittar)', 'musicas/feats/Lucas Lucco e Pabllo Vittar - Paraíso.mp3')">
+                
+                <h3>
+                Lucas Lucco <br>
+                Paraíso <br>
+                ft. Pabllo Vittar
+                </h3>
+            </article>
+
+            <article class="funtonight">
+                <img src="fotos/funTonight.jpg" onclick="mostrarMusicaPopupFeat('Lady Gaga', 'Fun Tonight (ft. Pabllo Vittar)', 'musicas/feats/Lady Gaga - Fun Tonight (Pabllo Vittar Remix).mp3')">
+                
+                <h3>
+                Lady Gaga <br>
+                Fun Tonight (REMIX) <br>
+                ft. Pabllo Vittar
+                </h3>
+            </article>
+        </section>
+
+        <div class="music-popup-container" id="musicPopup">
+            <div id="musicPopupText"></div>
+            <audio controls id="musicPlayer">
+                <source src="sample.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+
+        <script>
+            function mostrarMusicaPopupFeat(nomeArtista, nomeMusica, nomeDaMusica) {
+                var musicPopup = document.getElementById("musicPopup");
+                var musicPlayer = document.getElementById("musicPlayer");
+                var musicPopupText = document.getElementById("musicPopupText");
+
+                musicPopupText.innerHTML = nomeArtista + " - " + nomeMusica;
+
+                musicPlayer.src = nomeDaMusica;
+
+                musicPopup.style.display = "block";
+            }
+        </script>
+    </body>
+</html>
