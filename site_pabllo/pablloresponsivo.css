@@ -1,0 +1,457 @@
+@media (max-width: 768px) {
+    @font-face {
+        font-family: fontenoitada;
+        src: url(fontes/xirod.otf) format('truetype');
+    }
+    
+    @font-face {
+        font-family: fonteum;
+        src: url(fontes/Daisy\ Roots.otf) format('truetype');
+    }
+    
+    @font-face {
+        font-family: fontetitulo;
+        src: url(fontes/Fast\ Hand.otf) format('truetype');
+    }
+    
+    @font-face {
+        font-family: fontebatidao;
+        src: url(fontes/Pavelt.otf) format('truetype');
+    }
+    
+    @font-face {
+        font-family: fontepassarmal;
+        src: url(fontes/Fatal\ Fighter.otf) format('truetype');
+    }
+    
+    @font-face {
+        font-family: fontenaopara;
+        src: url(fontes/Statix.ttf) format('truetype');
+    }
+    
+    header {
+        font-family: fontetitulo, Arial, sans-serif;
+        font-size: 2em;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    body{
+        background-image: url(fotos/pablloFundo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        font-family: Roboto, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu {
+        background-color: #c7158580;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2em;
+        list-style: none;
+        padding: 10px;
+    }
+    
+    div{
+        border-radius: 5px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .menu a:link {
+        color: #000;
+    }
+    
+    .menu a:hover {
+        font-weight: bold;
+    }
+    
+    .menu span {
+        color: #1E90FF;
+    }
+    
+    .menu a:active{
+        color: #000;
+    }
+    
+    .intro{
+        background-color: #c7158580;
+        text-align: center;
+        padding: 5px 25px 40px 25px;
+    }
+    
+    #red{color:#ff0000;}
+    #orange{color:#ffa500;}
+    #yellow{color:#ffff00;}
+    #green{color: #90ee90;}
+    #green2{color: aquamarine;}
+    #blue{color: #87cefa;}
+    #cyan{color:#1E90FF;}
+    #lilac{color: #8a2be2;}
+    #purple{color: #800080;}
+    
+    #pabllointro{
+        float: left;
+        margin: -30px 10px;
+    }
+    
+    #pabllo{
+        float: right;
+        margin: 1em 0 1em 2em;
+    }
+    
+    #pabllo img{
+        width: 400px;
+        height: auto;
+    }
+    
+    #pabllo02{
+        float: left;
+        margin: 1em 0 1em ;
+    }
+    
+    #pabllo02 img{
+        width: 400px;
+        height: auto;
+    }
+    
+    strong{
+        font-size: 125%;
+    }
+    
+    .texto{
+        background-color: #c7158580;
+        text-align: center;
+        padding: 5px 25px 15px 25px;
+    }
+    
+    .popup-container{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        padding: 15px;
+    }
+    
+    .popup{
+        background: #fff;
+        text-align: center;
+    }
+    
+    .popup img{
+        max-width: 300px;
+        padding: 15px;
+    }
+    
+    .music-popup-container{
+        display: none;
+        position: fixed;
+        bottom: -5px;
+        right: 10px;
+        flex-direction: column;
+        background: #fff;
+    }
+    
+    .music-button{
+        cursor: pointer;
+        margin: 3px;
+        font-size: 10px;
+    }
+    
+    #musicPopupText{
+        text-align: center;
+        margin: 10px 10px 0 10px;
+    }
+    
+    #musicPlayer{
+        width: 350px;
+        margin: 15px;
+    }
+    
+    .vaipassarmal{
+        background-color:#7a4d2d80;
+        text-align: left;
+        font-family: fontepassarmal, Arial, sans-serif;
+        letter-spacing: 3px;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .vaipassarmal h3.music-button{
+        margin-bottom: 8px;
+        font-size: 25px;
+    }
+    
+    #vaipassarmal{
+        float: left;
+        margin: 0 2em 2em 0;
+    }
+    
+    #vaipassarmal img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .naoparanao{
+        background-color:#87fff880;
+        color:#ffffff;
+        font-family: fontenaopara, Arial, sans-serif;
+        letter-spacing: 1px;
+        text-align: right;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .naoparanao h3.music-button{
+        margin-bottom: 6px;
+        font-size: 25px;
+    }
+    
+    #naoparanao{
+        float: right;
+        margin: 0 0 2em 2em;
+    }
+    
+    #naoparanao img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .umumum{
+        background-color:#d9d9d980;
+        text-align: left;
+        font-family: fonteum, Arial, sans-serif;
+        letter-spacing: 3px;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .umumum h3.music-button{
+        margin-bottom: 6px;
+        font-size: 25px;
+    }
+    
+    #umumum{
+        float: left;
+        margin: 0 2em 2em 0;
+    }
+    
+    #umumum img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .batidaotropical{
+        background-color:#F0808080;
+        color:#ffffff;
+        text-shadow: 2px 2px 2px #FF1493;
+        font-family: fontebatidao, Arial, sans-serif;
+        text-align: right;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .batidaotropical h3.music-button{
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    #batidaotropical{
+        float: right;
+        margin: 0 0 2em 2em;
+    }
+    
+    #batidaotropical img{
+        max-width: 350px;
+        height: auto;
+    }
+    
+    .noitada{
+        background-color:#01004980;
+        color:#ffffff;
+        font-family: fontenoitada, Arial, sans-serif;
+        text-align: left;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .noitada h3.music-button{
+        margin-bottom: 9px;
+        font-size: 25px;
+    }
+    
+    #noitada{
+        float: left;
+        margin: 0 2em 2em 0;
+    }
+    
+    #noitada img{
+        max-width: 350px;
+        height: auto;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 5px;
+        margin: 30px;
+        padding: 0 10px 0 10px;
+    }
+    
+    section img {
+        align-items: center;
+        align-content: center;
+        padding: 20px 20px 0 20px;;
+        width: 300px;
+        height: auto;
+    }
+    
+    .instrucao{
+        background-color: #c7158580;
+        text-align: center;
+        padding: 5px 25px 5px 25px;
+        margin-bottom: 15px;
+    }
+    
+    article{
+        border-radius: 5px;
+    }
+    
+    .jogabunda{
+        background-color: #701A1380;
+    }
+    
+    .tomecurtindo{
+        background-color: #00000080;
+    }
+    
+    .modoturbo{
+        background-color: #4A409980;
+    }
+    
+    .suacara{
+        background-color: #E2454480;
+    }
+    
+    .paraiso{
+        background-color: #C2BBA980;
+    }
+    
+    .funtonight{
+        background-color: #20551480;
+    }
+    
+    .alo{
+        background-color:#c7158580;
+        text-align: left;
+        border-radius: 5px;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .alo h3{
+        padding: 10px 0 0 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #alo{
+        float: left;
+        margin: 0 2em 2em 0;
+    }
+    
+    #alo img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .passarmal{
+        background-color:#F0808080;
+        color:#ffffff;
+        text-align: right;
+        border-radius: 5px;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .passarmal h3{
+        padding: 10px 10px 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #passarmal{
+        float: right;
+        margin: 0 0 2em 2em;
+    }
+    
+    #passarmal img{
+        width: 300px;
+        height: auto;
+    }
+    
+    .yuke{
+        background-color:#c7158580;
+        text-align: left;
+        border-radius: 5px;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .yuke h3{
+        padding: 10px 0 0 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #yuke{
+        float: left;
+        margin: 0 2em 2em 0;
+    }
+    
+    #yuke img{
+        width: 400px;
+        height: auto;
+    }
+    
+    .pabllomouse{
+        background-color:#F0808080;
+        color:#ffffff;
+        text-align: right;
+        border-radius: 5px;
+        padding: 5px 25px 25px 25px;
+        margin-bottom: 15px;
+    }
+    
+    .pabllomouse h3{
+        padding: 10px 10px 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #pabllomouse{
+        float: right;
+        margin: 0 0 2em 2em;
+    }
+    
+    #pabllomouse img{
+        width: 400px;
+        height: auto;
+    }
+}
