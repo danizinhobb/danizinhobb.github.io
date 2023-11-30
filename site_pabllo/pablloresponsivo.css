@@ -276,7 +276,7 @@
     
     #batidaotropical img{
         max-width: 350px;
-        max-height: auto;
+        height: auto;
     }
     
     .noitada{
@@ -300,7 +300,7 @@
     
     #noitada img{
         max-width: 350px;
-        max-height: auto;
+        height: auto;
     }
     
     section{
