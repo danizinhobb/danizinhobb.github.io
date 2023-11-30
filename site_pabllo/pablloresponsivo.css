@@ -31,14 +31,14 @@
     
     header {
         font-family: fontetitulo, Arial, sans-serif;
-        font-size: 2em;
+        font-size: 1.5em;
         letter-spacing: 2px;
         text-align: center;
     }
     
     body{
         background-image: url(fotos/pablloFundo.jpg);
-        background-size: cover;
+        background-size: auto;
         background-repeat: no-repeat;
         background-attachment: scroll;
         font-family: Roboto, Helvetica, sans-serif;
@@ -51,9 +51,9 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1.5em;
         list-style: none;
-        padding: 10px;
+        padding: 5px;
     }
     
     div{
@@ -103,22 +103,23 @@
     }
     
     #pabllo{
+        display: none;
         float: right;
         margin: 1em 0 1em 2em;
     }
     
     #pabllo img{
-        width: 400px;
+        width: 200px;
         height: auto;
     }
     
     #pabllo02{
-        float: left;
-        margin: 1em 0 1em ;
+        float: none;
+        margin: 1em 0;
     }
     
     #pabllo02 img{
-        width: 400px;
+        width: 200px;
         height: auto;
     }
     
@@ -152,7 +153,7 @@
     }
     
     .popup img{
-        max-width: 300px;
+        max-width: 150px;
         padding: 15px;
     }
     
@@ -192,7 +193,7 @@
     
     .vaipassarmal h3.music-button{
         margin-bottom: 8px;
-        font-size: 25px;
+        font-size: 12px;
     }
     
     #vaipassarmal{
@@ -201,7 +202,7 @@
     }
     
     #vaipassarmal img{
-        width: 350px;
+        width: 175px;
         height: auto;
     }
     
@@ -217,7 +218,7 @@
     
     .naoparanao h3.music-button{
         margin-bottom: 6px;
-        font-size: 25px;
+        font-size: 12px;
     }
     
     #naoparanao{
@@ -226,7 +227,7 @@
     }
     
     #naoparanao img{
-        width: 350px;
+        width: 175px;
         height: auto;
     }
     
@@ -241,7 +242,7 @@
     
     .umumum h3.music-button{
         margin-bottom: 6px;
-        font-size: 25px;
+        font-size: 12px;
     }
     
     #umumum{
@@ -250,7 +251,7 @@
     }
     
     #umumum img{
-        width: 350px;
+        width: 175px;
         height: auto;
     }
     
@@ -266,7 +267,7 @@
     
     .batidaotropical h3.music-button{
         margin-bottom: 5px;
-        font-size: 25px;
+        font-size: 12px;
     }
     
     #batidaotropical{
@@ -275,7 +276,7 @@
     }
     
     #batidaotropical img{
-        max-width: 350px;
+        max-width: 175px;
         height: auto;
     }
     
@@ -290,7 +291,7 @@
     
     .noitada h3.music-button{
         margin-bottom: 9px;
-        font-size: 25px;
+        font-size: 12px;
     }
     
     #noitada{
@@ -299,7 +300,7 @@
     }
     
     #noitada img{
-        max-width: 350px;
+        max-width: 175px;
         height: auto;
     }
     
@@ -317,8 +318,8 @@
     section img {
         align-items: center;
         align-content: center;
-        padding: 20px 20px 0 20px;;
-        width: 300px;
+        padding: 10px 10px 0 10px;;
+        width: 75px;
         height: auto;
     }
     
@@ -367,7 +368,7 @@
     
     .alo h3{
         padding: 10px 0 0 10px;
-        font-size: 25px;
+        font-size: 12px;
         text-align: center;
     }
     
@@ -377,7 +378,7 @@
     }
     
     #alo img{
-        width: 350px;
+        width: 175px;
         height: auto;
     }
     
@@ -392,7 +393,7 @@
     
     .passarmal h3{
         padding: 10px 10px 0;
-        font-size: 25px;
+        font-size: 12px;
         text-align: center;
     }
     
@@ -402,7 +403,7 @@
     }
     
     #passarmal img{
-        width: 300px;
+        width: 150px;
         height: auto;
     }
     
@@ -416,7 +417,7 @@
     
     .yuke h3{
         padding: 10px 0 0 10px;
-        font-size: 25px;
+        font-size: 12px;
         text-align: center;
     }
     
@@ -426,7 +427,7 @@
     }
     
     #yuke img{
-        width: 400px;
+        width: 200px;
         height: auto;
     }
     
@@ -441,7 +442,7 @@
     
     .pabllomouse h3{
         padding: 10px 10px 0;
-        font-size: 25px;
+        font-size: 12px;
         text-align: center;
     }
     
@@ -451,7 +452,7 @@
     }
     
     #pabllomouse img{
-        width: 400px;
+        width: 200px;
         height: auto;
     }
 }
