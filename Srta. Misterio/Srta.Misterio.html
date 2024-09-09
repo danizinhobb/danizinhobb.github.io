@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="misterio.css">
+        <title>Trabalho Tecnologias Sustentáveis</title>
+    </head>
+
+    <body>
+        <div class="meio">
+            <header>
+                <h1>Senhorita Mistério</h1>
+            </header>
+
+            <h2>
+                Bem vinde ao Impório da Senhorita Mistério, <br>
+                hoje eu irei mostrar-lhe seu futuro, desvendar seu segredos mais <br>
+                obscuros e acalentar suas aflições quanto ao seu destino!
+            </h2>
+            
+            <h2>
+                Para iniciarmos nossa seção mostrando a magnetude de meus <br>
+                poderes eu irei adivinhar seu nome...
+            </h2>
+            <button id="Iniciar">Iniciar</button>
+        </div>
+
+        <div id="janela-modal" style="display: none;">
+            <div class="fundo-preto">
+                <div class="conteudo-janela">
+                <input type="text" id="nome-usuario" class="insert" placeholder="Digite seu nome"> <br>
+                <button id="mostrar-nome">Começar seção</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="janela-Nome" style="display: none;">
+            <div class="fundo-preto">
+                <div class="conteudo-janela">
+                <h2> Seu nome é</h2>
+                <h1> "Hello World!"</h1>
+                <button id="finalizar">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        const botaoAbrir = document.getElementById('Iniciar');
+
+        const janelaModal = document.getElementById('janela-modal');
+
+        const botaoAbrir2 = document.getElementById('mostrar-nome');
+
+        const janelaNome = document.getElementById('janela-Nome');
+
+        const botaoFechar = document.getElementById('finalizar');
+
+
+        botaoAbrir.addEventListener('click', () => {
+            janelaModal.style.display = 'block';
+        });
+
+        botaoAbrir2.addEventListener('click', () => {
+            janelaNome.style.display = 'block';
+            janelaModal.style.display = 'none';
+        });
+
+        botaoFechar.addEventListener('click', () => {
+            janelaNome.style.display = 'none';
+        });
+    </script>
+
+</html>

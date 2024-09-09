@@ -1,0 +1,66 @@
+@font-face {
+    font-family: fontemisterio;
+    src: url(Londona-reguler.otf) format('truetype');
+}
+
+body{ 
+    font-family: fontemisterio, Arial, sans-serif;
+    background-color: #836FFF;
+    text-align: center;
+}
+
+header{
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin: 25px 0 -50px 0;
+}
+
+h1{
+    color:#C71585;
+}
+
+h2{
+    letter-spacing: 1px;
+    color:#9400D3;
+}
+
+.meio{
+    margin: 50px 300px 50px 300px;
+    padding-bottom: 10px;
+    background-color: #00000088;
+    border-radius: 15px;
+}
+
+.fundo-preto {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.conteudo-janela {
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000020;
+}
+  
+.conteudo-janela input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-family: fontemisterio, Arial, sans-serif;
+}
+
+button{
+    width: 95px;
+    height: 45px;
+    font-family: fontemisterio, Arial, sans-serif;
+}
